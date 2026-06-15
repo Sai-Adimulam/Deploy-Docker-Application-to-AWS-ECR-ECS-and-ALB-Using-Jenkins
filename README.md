@@ -10,6 +10,7 @@ app.py
 requirements.txt
 Dockerfile
 Jenkinsfile
+
 Step 2: Create Amazon ECR and ECS Resources
 
 Created:
@@ -17,6 +18,8 @@ Created:
 Amazon ECR Repository
 Amazon ECS Cluster
 ECS Task Definition
+
+
 Step 3: Configure Networking
 
 Created:
@@ -24,6 +27,7 @@ Created:
 Target Group
 Application Load Balancer (ALB)
 Security Groups
+
 Step 4: Create ECS Service
 
 Created an ECS Service using the task definition and attached it to the Application Load Balancer.
@@ -36,6 +40,7 @@ Build Docker Image
 Authenticate with Amazon ECR
 Push Docker Image to ECR
 Trigger ECS Deployment
+
 Step 6: Push Source Code to GitHub
 
 Uploaded the project source code to GitHub for version control and CI/CD integration.
@@ -48,6 +53,7 @@ Pull code from GitHub
 Build Docker image
 Push image to Amazon ECR
 Deploy the latest image to Amazon ECS
+
 Step 8: Access Application
 
 Copied the Application Load Balancer DNS endpoint and accessed the application through a web browser.
