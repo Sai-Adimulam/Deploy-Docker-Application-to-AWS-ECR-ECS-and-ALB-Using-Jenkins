@@ -15,7 +15,7 @@ pipeline{
         }
         stage('AWS Authentication ECR'){
             steps{
-                sh 'aws ecr get-login-password --region app-south-2 | docker login --username AWS --password-stdin 908708651361.dkr.ecr.ap-south-2.amazonaws.com'
+                sh 'aws ecr get-login-password --region ap-south-2 | docker login --username AWS --password-stdin 908708651361.dkr.ecr.ap-south-2.amazonaws.com'
             }
         }
         stage('Tag image to ecr'){
