@@ -1,6 +1,7 @@
 # Deploy-Docker-Application-to-AWS-ECR-ECS-and-ALB-Using-Jenkins
 
 Project Implementation Steps
+
 Step 1: Create Application Files
 
 Created the following files:
