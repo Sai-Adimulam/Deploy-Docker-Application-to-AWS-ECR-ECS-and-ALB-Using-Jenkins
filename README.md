@@ -6,27 +6,27 @@ Step 1: Create Application Files
 
 Created the following files:
 
-app.py
-requirements.txt
-Dockerfile
-Jenkinsfile
+app.py,
+requirements.txt,
+Dockerfile,
+Jenkinsfile,
 
 Step 2: Create Amazon ECR and ECS Resources
 
 Created:
 
-Amazon ECR Repository
-Amazon ECS Cluster
-ECS Task Definition
+Amazon ECR Repository,
+Amazon ECS Cluster,
+ECS Task Definition,
 
 
 Step 3: Configure Networking
 
 Created:
 
-Target Group
-Application Load Balancer (ALB)
-Security Groups
+Target Group,
+Application Load Balancer (ALB),
+Security Groups,
 
 Step 4: Create ECS Service
 
